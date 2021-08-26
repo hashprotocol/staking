@@ -11,7 +11,7 @@ export type SubMenuConfiguration = {
 export default createContainer(Container);
 
 function Container() {
-	const [isShowingMobileSideNav, setIsShowingMobileSideNav] = useState(false);
+	const [isShowingMobileNavBar, setIsShowingMobileNavBar] = useState(false);
 	const [subMenuConfiguration, setSubMenuConfiguration] = useState<SubMenuConfiguration>({
 		routes: null,
 		topPosition: 0,
@@ -29,7 +29,7 @@ function Container() {
 			routes: null,
 		}));
 
-	const showMobileSideNav = () => {
+	const showMobileNavBar = () => {
 		setIsShowingMobileSideNav(true);
 		clearSubMenuConfiguration();
 	};
@@ -41,9 +41,9 @@ function Container() {
 	};
 
 	return {
-		showMobileSideNav,
-		closeMobileSideNav,
-		isShowingMobileSideNav,
+		showMobileNavBar,
+		closeMobileNavBar,
+		isShowingMobileNavBar,
 
 		isShowingSubMenu,
 		subMenuConfiguration,

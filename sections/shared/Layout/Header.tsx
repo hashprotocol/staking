@@ -14,7 +14,7 @@ import UserMenu from './UserMenu';
 
 const Header: FC = () => {
 	const { t } = useTranslation();
-	const { showMobileSideNav, headerTitle, headerSubtitle } = UIContainer.useContainer();
+	const { showMobileNavBar, headerTitle, headerSubtitle } = UIContainer.useContainer();
 
 	return (
 		<HeaderWrapper>
@@ -24,7 +24,7 @@ const Header: FC = () => {
 			<Container>
 				<FlexDivCentered>
 					<MobileOrTabletView>
-						<Title onClick={showMobileSideNav}>
+						<Title onClick={showMobileNavBar}>
 							<Svg src={TitleIcon} />
 							{!headerTitle ? null : (
 								<TitleText hasSubTitle={!!headerSubtitle}>{t(`header.${headerTitle}`)}</TitleText>
