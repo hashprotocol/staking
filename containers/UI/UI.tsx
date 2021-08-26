@@ -30,10 +30,10 @@ function Container() {
 		}));
 
 	const showMobileNavBar = () => {
-		setIsShowingMobileSideNav(true);
+		setIsShowingMobileNavBar(true);
 		clearSubMenuConfiguration();
 	};
-	const closeMobileSideNav = () => setIsShowingMobileSideNav(false);
+	const closeMobileNavBar = () => setIsShowingMobileNavBar(false);
 
 	const setTitle = (title: string, subtitle?: string | null) => {
 		setHeaderTitle(title);
