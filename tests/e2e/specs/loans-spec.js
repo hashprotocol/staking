@@ -1,12 +1,12 @@
-import LoansPage from '../pages/loans-page';
+navbarimport LoansPage from '../pages/loans-page';
 
 const loansPage = new LoansPage();
 
 describe.skip('Loans', () => {
 	context('Navigation', () => {
-		it('should be accessible from sidenav', () => {
+		it('should be accessible from navbar', () => {
 			cy.visit('/');
-			cy.findByTestId('sidenav-/loans').click();
+			cy.findByTestId('navbar-/loans').click();
 			cy.findByTestId('loans-form', { timeout: 30 * 1e3 }).should('be.visible');
 		});
 	});

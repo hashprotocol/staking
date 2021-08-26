@@ -1,4 +1,4 @@
-import { FC } from 'react';
+navbarnavbarimport { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 
@@ -20,7 +20,7 @@ const CRatioBarStats: FC = () => {
 	return (
 		<StyledBarStatBox>
 			<BarHeaderSection>
-				<BarTitle>{t('sidenav.bars.c-ratio')}</BarTitle>
+				<BarTitle>{t('navbar.bars.c-ratio')}</BarTitle>
 				<BarValue>{formatPercent(percentageCurrentCRatio)}</BarValue>
 			</BarHeaderSection>
 			<StyledProgressBar
@@ -30,7 +30,7 @@ const CRatioBarStats: FC = () => {
 				variant="blue-pink"
 			/>
 			<BarHeaderSection>
-				<BarTitle>{t('sidenav.bars.t-ratio')}</BarTitle>
+				<BarTitle>{t('navbar.bars.t-ratio')}</BarTitle>
 				<StyledBarValue>{formatPercent(percentageTargetCRatio)}</StyledBarValue>
 			</BarHeaderSection>
 		</StyledBarStatBox>

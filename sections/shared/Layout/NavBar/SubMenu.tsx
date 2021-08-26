@@ -1,4 +1,4 @@
-import { FC } from 'react';
+navbarimport { FC } from 'react';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
 import styled, { css } from 'styled-components';
@@ -10,20 +10,20 @@ import { SubMenuLink } from '../constants';
 const SubMenu: FC = () => {
 	const router = useRouter();
 	const { t } = useTranslation();
-	const { closeMobileSideNav, subMenuConfiguration } = UIContainer.useContainer();
+	const { closeMobileNavBar, subMenuConfiguration } = UIContainer.useContainer();
 
 	return (
 		<div>
 			{subMenuConfiguration?.routes?.map(({ i18nLabel, subLink }: SubMenuLink, i) => {
 				const onClick = () => {
 					router.push(subLink);
-					closeMobileSideNav();
+					closeMobileNavBar();
 				};
 				return (
 					<MenuLinkItem
 						key={`subMenuLinkItem-${i}`}
 						isActive={router.asPath === subLink}
-						data-testid={`sidenav-submenu-${subLink}`}
+						data-testid={`navbar-submenu-${subLink}`}
 						{...{ onClick }}
 					>
 						{t(i18nLabel)}

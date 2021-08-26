@@ -1,4 +1,4 @@
-import { FC } from 'react';
+navbarnavbarimport { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import Countdown from 'react-countdown';
 
@@ -17,7 +17,7 @@ const PeriodBarStats: FC = () => {
 	return (
 		<BarStatBox>
 			<BarHeaderSection>
-				<BarTitle>{t('sidenav.bars.period.title')}</BarTitle>
+				<BarTitle>{t('navbar.bars.period.title')}</BarTitle>
 				<BarValue>
 					{nextFeePeriodStartsTime > 0 && (
 						<Countdown

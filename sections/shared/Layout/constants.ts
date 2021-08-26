@@ -1,4 +1,4 @@
-import ROUTES from 'constants/routes';
+navbarimport ROUTES from 'constants/routes';
 
 export type SubMenuLink = {
 	i18nLabel: string;
@@ -15,57 +15,57 @@ export type MenuLinks = MenuLink[];
 
 export const MENU_LINKS: MenuLinks = [
 	{
-		i18nLabel: 'sidenav.dashboard',
+		i18nLabel: 'navbar.dashboard',
 		link: ROUTES.Home,
 	},
 	{
-		i18nLabel: 'sidenav.staking',
+		i18nLabel: 'navbar.staking',
 		link: ROUTES.Staking.Home,
 		subMenu: [
 			{
-				i18nLabel: 'sidenav.mint-and-burn',
+				i18nLabel: 'navbar.mint-and-burn',
 				subLink: ROUTES.Staking.Home,
 			},
 			{
-				i18nLabel: 'sidenav.earn',
+				i18nLabel: 'navbar.earn',
 				subLink: ROUTES.Earn.Home,
 			},
 			{
-				i18nLabel: 'sidenav.debt',
+				i18nLabel: 'navbar.debt',
 				subLink: ROUTES.Debt.Home,
 			},
 		],
 	},
 	{
-		i18nLabel: 'sidenav.loans',
+		i18nLabel: 'navbar.loans',
 		link: ROUTES.Loans.Home,
 	},
 	{
-		i18nLabel: 'sidenav.gov',
+		i18nLabel: 'navbar.gov',
 		link: ROUTES.Gov.Home,
 	},
 	{
-		i18nLabel: 'sidenav.l2',
+		i18nLabel: 'navbar.l2',
 		link: ROUTES.L2.Home,
 	},
 	{
-		i18nLabel: 'sidenav.wallet',
+		i18nLabel: 'navbar.wallet',
 		link: ROUTES.Escrow.Home,
 		subMenu: [
 			{
-				i18nLabel: 'sidenav.escrow',
+				i18nLabel: 'navbar.escrow',
 				subLink: ROUTES.Escrow.Home,
 			},
 			{
-				i18nLabel: 'sidenav.synths',
+				i18nLabel: 'navbar.synths',
 				subLink: ROUTES.Synths.Home,
 			},
 			{
-				i18nLabel: 'sidenav.history',
+				i18nLabel: 'navbar.history',
 				subLink: ROUTES.History.Home,
 			},
 			{
-				i18nLabel: 'sidenav.delegate',
+				i18nLabel: 'navbar.delegate',
 				subLink: ROUTES.Delegate.Home,
 			},
 		],
@@ -74,37 +74,37 @@ export const MENU_LINKS: MenuLinks = [
 
 export const MENU_LINKS_L2: MenuLinks = [
 	{
-		i18nLabel: 'sidenav.dashboard',
+		i18nLabel: 'navbar.dashboard',
 		link: ROUTES.Home,
 	},
 	{
-		i18nLabel: 'sidenav.staking',
+		i18nLabel: 'navbar.staking',
 		link: ROUTES.Staking.Home,
 		subMenu: [
 			{
-				i18nLabel: 'sidenav.mint-and-burn',
+				i18nLabel: 'navbar.mint-and-burn',
 				subLink: ROUTES.Staking.Home,
 			},
 			{
-				i18nLabel: 'sidenav.earn',
+				i18nLabel: 'navbar.earn',
 				subLink: ROUTES.Earn.Home,
 			},
 		],
 	},
 	{
-		i18nLabel: 'sidenav.withdraw',
+		i18nLabel: 'navbar.withdraw',
 		link: ROUTES.Withdraw.Home,
 	},
 	{
-		i18nLabel: 'sidenav.wallet',
+		i18nLabel: 'navbar.wallet',
 		link: ROUTES.Escrow.Home,
 		subMenu: [
 			{
-				i18nLabel: 'sidenav.escrow',
+				i18nLabel: 'navbar.escrow',
 				subLink: ROUTES.Escrow.Home,
 			},
 			{
-				i18nLabel: 'sidenav.synths',
+				i18nLabel: 'navbar.synths',
 				subLink: ROUTES.Synths.Home,
 			},
 		],
@@ -113,19 +113,19 @@ export const MENU_LINKS_L2: MenuLinks = [
 
 export const MENU_LINKS_DELEGATE: MenuLinks = [
 	{
-		i18nLabel: 'sidenav.dashboard',
+		i18nLabel: 'navbar.dashboard',
 		link: ROUTES.Home,
 	},
 	{
-		i18nLabel: 'sidenav.staking',
+		i18nLabel: 'navbar.staking',
 		link: ROUTES.Staking.Home,
 		subMenu: [
 			{
-				i18nLabel: 'sidenav.mint-and-burn',
+				i18nLabel: 'navbar.mint-and-burn',
 				subLink: ROUTES.Staking.Home,
 			},
 			{
-				i18nLabel: 'sidenav.earn',
+				i18nLabel: 'navbar.earn',
 				subLink: ROUTES.Earn.Home,
 			},
 		],

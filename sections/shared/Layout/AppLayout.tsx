@@ -1,4 +1,4 @@
-import { FC, ReactNode, useEffect } from 'react';
+NavBarimport { FC, ReactNode, useEffect } from 'react';
 import router from 'next/router';
 import { useRecoilValue } from 'recoil';
 import styled from 'styled-components';
@@ -10,7 +10,7 @@ import NotificationContainer from 'constants/NotificationContainer';
 import media from 'styles/media';
 import { isL2State, isMainnetState, delegateWalletState } from 'store/wallet';
 import Header from './Header';
-import SideNav from './SideNav';
+import NavBar from './NavBar';
 import useGetDepositsIsActiveQuery from 'queries/deposits/useGetDepositsIsActiveQuery';
 
 type AppLayoutProps = {
@@ -43,7 +43,7 @@ const AppLayout: FC<AppLayoutProps> = ({ children }) => {
 
 	return (
 		<>
-			<SideNav />
+			<NavBar />
 			<Header />
 			<Content>{children}</Content>
 			<NotificationContainer />

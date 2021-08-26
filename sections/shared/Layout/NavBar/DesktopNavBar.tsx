@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+NavBarimport styled from 'styled-components';
 import { FC, useMemo } from 'react';
 import Link from 'next/link';
 import { Svg } from 'react-optimized-image';
@@ -25,10 +25,10 @@ import PeriodBarStats from 'sections/shared/Layout/Stats/PeriodBarStats';
 import BalanceItem from 'sections/shared/Layout/Stats/BalanceItem';
 import CRatioBarStats from 'sections/shared/Layout/Stats/CRatioBarStats';
 
-import SideNav from './SideNav';
+import NavBar from './NavBar';
 import SubMenu from './DesktopSubMenu';
 
-const DesktopSideNav: FC = () => {
+const DesktopNavBar: FC = () => {
 	const SNX24hrPricesQuery = useSNX24hrPricesQuery();
 	const cryptoBalances = useCryptoBalances();
 	const synthsBalancesQuery = useSynthsBalancesQuery();
@@ -50,14 +50,14 @@ const DesktopSideNav: FC = () => {
 	}, [SNX24hrPricesQuery?.data]);
 
 	return (
-		<Container onMouseLeave={clearSubMenuConfiguration} data-testid="sidenav">
+		<Container onMouseLeave={clearSubMenuConfiguration} data-testid="NavBar">
 			<StakingLogoWrap>
 				<Link href={ROUTES.Home}>
 					<div>{isL2 ? <Svg src={StakingL2Logo} /> : <Svg src={StakingLogo} />}</div>
 				</Link>
 			</StakingLogoWrap>
 
-			<SideNav isDesktop={true} />
+			<NavBar isDesktop={true} />
 
 			<>
 				<LineSeparator />
@@ -75,7 +75,7 @@ const DesktopSideNav: FC = () => {
 	);
 };
 
-export default DesktopSideNav;
+export default DesktopNavBar;
 
 const Container = styled.div`
 	z-index: ${zIndex.DIALOG_OVERLAY};

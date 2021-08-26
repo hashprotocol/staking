@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+NavBarimport styled from 'styled-components';
 import { FC } from 'react';
 import Link from 'next/link';
 import { Svg } from 'react-optimized-image';
@@ -11,19 +11,19 @@ import UIContainer from 'containers/UI';
 import ROUTES from 'constants/routes';
 import { MOBILE_SIDE_NAV_WIDTH, zIndex } from 'constants/ui';
 
-import SideNav from './SideNav';
+import NavBar from './NavBar';
 import SubMenu from './MobileSubMenu';
 
-const DesktopSideNav: FC = () => {
+const DesktopNavBar: FC = () => {
 	const {
-		closeMobileSideNav,
+		closeMobileNavBar,
 		clearSubMenuConfiguration,
 		isShowingSubMenu,
-		isShowingMobileSideNav,
+		isShowingMobileNavBar,
 	} = UIContainer.useContainer();
 
 	return (
-		<Container data-testid="sidenav" isShowing={isShowingMobileSideNav}>
+		<Container data-testid="navbar" isShowing={isShowingMobileNavBar}>
 			<StakingLogoWrap>
 				{isShowingSubMenu ? (
 					<Svg src={BackIcon} onClick={clearSubMenuConfiguration} />
@@ -35,17 +35,17 @@ const DesktopSideNav: FC = () => {
 					</Link>
 				)}
 
-				<CloseContainer onClick={closeMobileSideNav}>
+				<CloseContainer onClick={closeMobileNavBar}>
 					<Svg src={CloseIcon} />
 				</CloseContainer>
 			</StakingLogoWrap>
 
-			{isShowingSubMenu ? <SubMenu /> : <SideNav />}
+			{isShowingSubMenu ? <SubMenu /> : <NavBar />}
 		</Container>
 	);
 };
 
-export default DesktopSideNav;
+export default DesktopNavBar;
 
 const Container = styled.div<{ isShowing: boolean }>`
 	z-index: ${zIndex.DIALOG_OVERLAY};

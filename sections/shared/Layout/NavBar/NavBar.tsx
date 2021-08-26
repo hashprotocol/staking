@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+NavBarimport styled, { css } from 'styled-components';
 import { FC, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';
@@ -18,11 +18,11 @@ import { MENU_LINKS, MENU_LINKS_L2, MENU_LINKS_DELEGATE } from '../constants';
 
 const getKeyValue = <T extends object, U extends keyof T>(obj: T) => (key: U) => obj[key];
 
-export type SideNavProps = {
+export type NavBarProps = {
 	isDesktop?: boolean;
 };
 
-const SideNav: FC<SideNavProps> = ({ isDesktop }) => {
+const NavBar: FC<NavBarProps> = ({ isDesktop }) => {
 	const { t } = useTranslation();
 	const router = useRouter();
 	const menuLinkItemRefs = useRef({});
@@ -30,7 +30,7 @@ const SideNav: FC<SideNavProps> = ({ isDesktop }) => {
 	const isL2 = useRecoilValue(isL2State);
 	const delegateWallet = useRecoilValue(delegateWalletState);
 	const {
-		closeMobileSideNav,
+		closeMobileNavBar,
 		setSubMenuConfiguration,
 		clearSubMenuConfiguration,
 		setNetworkError,
@@ -108,13 +108,13 @@ const SideNav: FC<SideNavProps> = ({ isDesktop }) => {
 											onSetSubMenuConfiguration();
 										} else {
 											router.push(link);
-											closeMobileSideNav();
+											closeMobileNavBar();
 											clearSubMenuConfiguration();
 										}
 									},
 							  })}
 						key={link}
-						data-testid={`sidenav-${link}`}
+						data-testid={`NavBar-${link}`}
 						isActive={
 							subMenu
 								? !!subMenu.find(({ subLink }) => subLink === router.asPath)
@@ -133,15 +133,15 @@ const SideNav: FC<SideNavProps> = ({ isDesktop }) => {
 				<MenuLinkItem
 					onClick={() => {
 						addOptimismNetwork();
-						closeMobileSideNav();
+						closeMobileNavBar();
 					}}
 					onMouseEnter={() => {
 						clearSubMenuConfiguration();
 					}}
-					data-testid="sidenav-switch-to-l2"
+					data-testid="NavBar-switch-to-l2"
 					isL2Switcher
 				>
-					<div className="link">{t('sidenav.switch-to-l2')}</div>
+					<div className="link">{t('navbar.switch-to-l2')}</div>
 				</MenuLinkItem>
 			) : null}
 
@@ -149,12 +149,12 @@ const SideNav: FC<SideNavProps> = ({ isDesktop }) => {
 				<>
 					<MenuLinkItem
 						onClick={() => {
-							closeMobileSideNav();
+							closeMobileNavBar();
 							setSettingsModalOpened(!settingsModalOpened);
 						}}
-						data-testid="sidenav-settings"
+						data-testid="navbar-settings"
 					>
-						<div className="link">{t('sidenav.settings')}</div>
+						<div className="link">{t('navbar.settings')}</div>
 					</MenuLinkItem>
 					{settingsModalOpened && <SettingsModal onDismiss={() => setSettingsModalOpened(false)} />}
 				</>
@@ -225,4 +225,4 @@ const MenuLinkItem = styled.div<{ isActive?: boolean; isL2Switcher?: boolean }>`
 	}
 `;
 
-export default SideNav;
+export default NavBar;

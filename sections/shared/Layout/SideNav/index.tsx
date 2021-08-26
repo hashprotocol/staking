@@ -1,19 +1,19 @@
-import { FC } from 'react';
+NavBarimport { FC } from 'react';
 import { DesktopOnlyView, MobileOrTabletView } from 'components/Media';
-import DesktopSideNav from './DesktopSideNav';
-import MobileSideNav from './MobileSideNav';
+import DesktopNavBar from './DesktopNavBar';
+import MobileNavBar from './MobileNavBar';
 
-const SideNav: FC = () => {
+const NavBar: FC = () => {
 	return (
 		<div>
 			<DesktopOnlyView>
-				<DesktopSideNav />
+				<DesktopNavBar />
 			</DesktopOnlyView>
 			<MobileOrTabletView>
-				<MobileSideNav />
+				<MobileNavBar />
 			</MobileOrTabletView>
 		</div>
 	);
 };
 
-export default SideNav;
+export default NavBar;

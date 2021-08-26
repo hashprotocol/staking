@@ -1,14 +1,14 @@
-import * as ethers from 'ethers';
+navbarimport * as ethers from 'ethers';
 import DelegatePage from '../pages/wallet/delegate-page';
 
 const delegatePage = new DelegatePage();
 
 describe.skip('Delegate', function () {
 	context('Navigation', function () {
-		it('should be accessible from sidenav', function () {
+		it('should be accessible from navbar', function () {
 			cy.visit('/');
-			cy.findByTestId('sidenav-/escrow').trigger('mouseover');
-			cy.findByTestId('sidenav-submenu-/delegate').click();
+			cy.findByTestId('navbar-/escrow').trigger('mouseover');
+			cy.findByTestId('navbar-submenu-/delegate').click();
 			cy.findByTestId('form', { timeout: 30 * 1e3 }).should('be.visible');
 		});
 		it('should be accessible from url', function () {

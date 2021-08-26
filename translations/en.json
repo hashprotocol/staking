@@ -1117,7 +1117,7 @@
 			}
 		}
 	},
-	"sidenav": {
+	"navbar": {
 		"dashboard": "Home",
 		"loans": "Loans",
 		"earn": "Earn",
