@@ -15,7 +15,7 @@ export const WithAppContainers: FC<WithAppContainersProps> = ({ children }) => (
 		<BlockExplorer.Provider>
 			<TransactionNotifier.Provider>
 				<Loans.Provider>
-					<NavBar.Provider>{children}</.Provider>
+					<NavBar.Provider>{children}</NavBar.Provider>
 				</Loans.Provider>
 			</TransactionNotifier.Provider>
 		</BlockExplorer.Provider>
