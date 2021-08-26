@@ -1,4 +1,4 @@
-NavBarimport { FC, ReactNode, useEffect } from 'react';
+import { FC, ReactNode, useEffect } from 'react';
 import router from 'next/router';
 import { useRecoilValue } from 'recoil';
 import styled from 'styled-components';

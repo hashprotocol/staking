@@ -1,4 +1,4 @@
-NavBarimport { FC } from 'react';
+import { FC } from 'react';
 import { DesktopOnlyView, MobileOrTabletView } from 'components/Media';
 import DesktopNavBar from './DesktopNavBar';
 import MobileNavBar from './MobileNavBar';

@@ -1,4 +1,4 @@
-NavBarimport styled, { css } from 'styled-components';
+import styled, { css } from 'styled-components';
 import { FC, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'react-i18next';

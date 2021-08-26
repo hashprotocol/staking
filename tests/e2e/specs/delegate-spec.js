@@ -1,4 +1,4 @@
-navbarimport * as ethers from 'ethers';
+import * as ethers from 'ethers';
 import DelegatePage from '../pages/wallet/delegate-page';
 
 const delegatePage = new DelegatePage();

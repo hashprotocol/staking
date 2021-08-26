@@ -1,4 +1,4 @@
-navbarimport ROUTES from 'constants/routes';
+import ROUTES from 'constants/routes';
 
 export type SubMenuLink = {
 	i18nLabel: string;

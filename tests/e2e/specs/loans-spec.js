@@ -1,4 +1,4 @@
-navbarimport LoansPage from '../pages/loans-page';
+import LoansPage from '../pages/loans-page';
 
 const loansPage = new LoansPage();
 

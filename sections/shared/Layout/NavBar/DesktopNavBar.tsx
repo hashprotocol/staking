@@ -1,4 +1,4 @@
-NavBarimport styled from 'styled-components';
+import styled from 'styled-components';
 import { FC, useMemo } from 'react';
 import Link from 'next/link';
 import { Svg } from 'react-optimized-image';
