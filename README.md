@@ -12,6 +12,7 @@
 - Unstated-next
 - Styled-Components
 - Immer
+- Contentful
 
 ## Ethereum stack
 
