@@ -1,4 +1,4 @@
-hashcash.financeimport React from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ethers } from 'ethers';
 import { useRecoilValue } from 'recoil';

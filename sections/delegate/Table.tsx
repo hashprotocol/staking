@@ -1,4 +1,4 @@
-hashcash.financeimport { FC, useMemo } from 'react';
+import { FC, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import { Svg } from 'react-optimized-image';

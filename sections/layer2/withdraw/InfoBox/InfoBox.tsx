@@ -1,4 +1,4 @@
-hashcash.financeimport { Trans, useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { CellProps } from 'react-table';
 import styled from 'styled-components';
 import ExternalLink from '../../components/ExternalLink';
