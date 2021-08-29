@@ -7,7 +7,7 @@ export const EXTERNAL_LINKS = {
 		Uniswap: 'https://uniswap.exchange/',
 		OneInchLink: (from: CurrencyKey, to: CurrencyKey) => `https://1inch.exchange/#/${from}/${to}`,
 	},
-	Hashcash: {
+	Synthetix: {
 		Home: 'https://www.hashcash.finance',
 		Litepaper: 'https://docs.hashcash.finance/litepaper/',
 		Incentives: 'https://docs.hashcash.finance/incentives/',
