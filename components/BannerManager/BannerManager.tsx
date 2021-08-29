@@ -56,7 +56,7 @@ const BannerManager: FC = () => {
 				message={
 					<Trans
 						i18nKey={'user-menu.banner.election-info'}
-						components={[<StyledExternalLink href="https://staking.synthetix.io/gov" />]}
+						components={[<StyledExternalLink href="https://staking.hashcash.finance/gov" />]}
 					/>
 				}
 			/>
@@ -69,7 +69,7 @@ const BannerManager: FC = () => {
 				message={
 					<Trans
 						i18nKey={'user-menu.banner.url-warning'}
-						components={[<StyledExternalLink href="https://staking.synthetix.io" />]}
+						components={[<StyledExternalLink href="https://staking.hashcash.finance" />]}
 					/>
 				}
 			/>

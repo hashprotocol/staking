@@ -47,7 +47,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta name="description" content={t('meta.description')} />
 				{/* open graph */}
-				<meta property="og:url" content="https://staking.synthetix.io/" />
+				<meta property="og:url" content="https://staking.hashcash.finance/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content={t('meta.og.title')} />
 				<meta property="og:description" content={t('meta.description')} />
@@ -56,10 +56,10 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
 				<meta property="og:site_name" content={t('meta.og.site-name')} />
 				{/* twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:site" content="@synthetix_io" />
-				<meta name="twitter:creator" content="@synthetix_io" />
+				<meta name="twitter:site" content="" />
+				<meta name="twitter:creator" content="@" />
 				<meta name="twitter:image" content="/images/staking-twitter.jpg" />
-				<meta name="twitter:url" content="https://staking.synthetix.io" />
+				<meta name="twitter:url" content="https://staking.hashcash.finance" />
 				<link rel="icon" href="/images/favicon.ico" />
 			</Head>
 			<ThemeProvider theme={theme}>
