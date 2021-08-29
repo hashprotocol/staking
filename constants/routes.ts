@@ -37,9 +37,9 @@ export const ROUTES = {
 		sUSD_EXTERNAL: 'https://www.curve.fi/susdv2/',
 		sEURO_EXTERNAL: 'https://www.curve.fi/eurs/',
 		DHT_LP: '/earn/DHT-LP',
-		sBTC_EXTERNAL: 'https://kwenta.io/shorting',
+		sBTC_EXTERNAL: 'https://exchange.hashcash.finance/shorting',
 		sBTC_SHORT: '/earn/sBTC-SHORT',
-		sETH_EXTERNAL: 'https://kwenta.io/shorting',
+		sETH_EXTERNAL: 'https://exchange.hashcash.finance/shorting',
 		sETH_SHORT: '/earn/sETH-SHORT',
 		yearn_SNX_VAULT: '/earn/yearn-SNX',
 	},
@@ -51,11 +51,8 @@ export const ROUTES = {
 	Withdraw: {
 		Home: '/withdraw',
 	},
-	Gov: {
-		Home: '/gov',
-		Space: (spaceKey: string) => `/gov/${spaceKey}`,
-		Create: (spaceKey: string) => `/gov/${spaceKey}/create`,
-		Proposal: (spaceKey: string, id: string) => `/gov/${spaceKey}/${id}`,
+	Bridge: {
+		Home: 'https://bridge.hashcash.finance/',
 	},
 	Loans: {
 		Home: '/loans',

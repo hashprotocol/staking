@@ -2,12 +2,12 @@ import { CurrencyKey } from './currency';
 
 export const EXTERNAL_LINKS = {
 	Trading: {
-		Kwenta: 'https://kwenta.io',
+		Exchange: 'https://exchange.hashcash.finance',
 		DexAG: 'https://dex.ag/',
 		Uniswap: 'https://uniswap.exchange/',
 		OneInchLink: (from: CurrencyKey, to: CurrencyKey) => `https://1inch.exchange/#/${from}/${to}`,
 	},
-	Synthetix: {
+	Hashcash: {
 		Home: 'https://www.hashcash.finance',
 		Litepaper: 'https://docs.hashcash.finance/litepaper/',
 		Incentives: 'https://docs.hashcash.finance/incentives/',

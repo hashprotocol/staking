@@ -161,7 +161,7 @@
 		},
 		"what": {
 			"title": "What is Hashcash?",
-			"subtitle": "Hashcash is a derivatives liquidity protocol on Ethereum. It enables the creation of synthetic assets (Synths) by staking HSH, and these Synths can be traded for each other directly with the Hashcash smart contracts on dApps such as Kwenta."
+			"subtitle": "Hashcash is a derivatives liquidity protocol on Ethereum. It enables the creation of synthetic assets (Synths) by staking HSH, and these Synths can be traded for each other directly with the Hashcash smart contracts on dApps such as Hashcash Exchange."
 		},
 		"why": {
 			"title": "Why stake HSH?",
@@ -215,7 +215,7 @@
 			},
 			"trade": {
 				"title": "TRADE",
-				"copy": "Trade between Synths on Kwenta"
+				"copy": "Trade between Synths on Hashcash Exchange"
 			},
 			"migrate-l1": {
 				"title": "Migrate escrowed HSH",
@@ -943,7 +943,7 @@
 	},
 	"synths": {
 		"page-title": "Synths | Hashcash staking",
-		"trade-on-kwenta": "Want more? Head to Kwenta to trade between Synths",
+		"trade-on-Hashcash Exchange": "Want more? Head to Hashcash Exchange to trade between Synths",
 		"assets": {
 			"synths": {
 				"title": "Synth Balances",
@@ -1349,7 +1349,7 @@
 		"l2/deposit": "deposit",
 		"l2/migrate": "migrate",
 		"l2/withdraw": "withdraw",
-		"gov": "gov",
+		"bridge": "bridge",
 		"loans": "loans",
 		"loans/new": "new",
 		"loans/list": "active",
