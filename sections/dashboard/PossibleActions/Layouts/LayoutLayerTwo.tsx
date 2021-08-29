@@ -76,7 +76,7 @@ const LayoutLayerTwo: FC = () => {
 				),
 				title: t('dashboard.actions.trade.title'),
 				copy: t('dashboard.actions.trade.copy'),
-				externalLink: EXTERNAL_LINKS.Trading.Kwenta,
+				externalLink: EXTERNAL_LINKS.Trading.Exchange,
 				isDisabled: false,
 			},
 		].map((cell, i) => ({ ...cell, gridArea: `tile-${i + 1}` }));
