@@ -5,10 +5,10 @@
 	"meta": {
 		"description": "A dApp for SNX holders to earn rewards through staking.",
 		"og": {
-			"title": "Synthetix Staking",
+			"title": "Hashcash Staking",
 			"description": "A dApp for SNX holders to earn rewards through staking.",
-			"image-alt": "Synthetix Staking",
-			"site-name": "Synthetix Staking"
+			"image-alt": "Hashcash staking",
+			"site-name": "Hashcash staking"
 		}
 	},
 	"modals": {
@@ -154,7 +154,7 @@
 		}
 	},
 	"homepage": {
-		"page-title": "Earn with SNX | Synthetix Staking",
+		"page-title": "Earn with SNX | Hashcash staking",
 		"welcome": {
 			"title": "Welcome to SNX staking",
 			"subtitle": "The dApp for SNX holders. If you've never staked SNX before, read through this quick introduction first."
@@ -177,7 +177,7 @@
 		}
 	},
 	"dashboard": {
-		"page-title": "Home | Synthetix Staking",
+		"page-title": "Home | Hashcash staking",
 		"actions": {
 			"title": "Possible Actions",
 			"claim": {
@@ -230,7 +230,7 @@
 		}
 	},
 	"staking": {
-		"page-title": "Staking | Synthetix Staking",
+		"page-title": "Staking | Hashcash staking",
 		"actions": {
 			"mint": {
 				"title": "MINT",
@@ -373,7 +373,7 @@
 		}
 	},
 	"debt": {
-		"page-title": "Debt | Synthetix Staking",
+		"page-title": "Debt | Hashcash staking",
 		"actions": {
 			"track": {
 				"title": "Overview",
@@ -417,7 +417,7 @@
 		}
 	},
 	"earn": {
-		"page-title": "Earn | Synthetix Staking",
+		"page-title": "Earn | Hashcash staking",
 		"tab": {
 			"active": "Active",
 			"inactive": "Expired"
@@ -625,7 +625,7 @@
 		}
 	},
 	"escrow": {
-		"page-title": "Escrow | Synthetix Staking",
+		"page-title": "Escrow | Hashcash staking",
 		"staking": {
 			"info": {
 				"title": "Vest your SNX staking rewards in escrow",
@@ -686,7 +686,7 @@
 		}
 	},
 	"loans": {
-		"page-title": "Borrow Synths | Synthetix Staking",
+		"page-title": "Borrow Synths | Hashcash staking",
 		"interest-rate": "Interest Rate",
 		"issuance-fee": "Issuance Fee",
 		"cratio": "C-Ratio",
@@ -794,7 +794,7 @@
 		}
 	},
 	"layer2": {
-		"page-title": "Layer 2 | Synthetix Staking",
+		"page-title": "Layer 2 | Hashcash staking",
 		"error": {
 			"non-eoa-wallet": "Smart contract wallets are not compatible with Layer 2"
 		},
@@ -910,7 +910,7 @@
 		}
 	},
 	"history": {
-		"page-title": "History | Synthetix Staking",
+		"page-title": "History | Hashcash staking",
 		"table": {
 			"type": "type",
 			"amount": "amount",
@@ -942,7 +942,7 @@
 		}
 	},
 	"synths": {
-		"page-title": "Synths | Synthetix Staking",
+		"page-title": "Synths | Hashcash staking",
 		"trade-on-kwenta": "Want more? Head to Kwenta to trade between Synths",
 		"assets": {
 			"synths": {
@@ -986,7 +986,7 @@
 		}
 	},
 	"gov": {
-		"page-title": "Governance | Synthetix Staking",
+		"page-title": "Governance | Hashcash staking",
 		"panel": {
 			"council": {
 				"title": "Spartan Council"
@@ -1272,18 +1272,18 @@
 		}
 	},
 	"not-found": {
-		"page-title": "Not Found | Synthetix Staking",
+		"page-title": "Not Found | Hashcash staking",
 		"title": "404",
 		"subtitle": "Page not found"
 	},
 	"system-status": {
-		"page-title": "Maintenance | Synthetix Staking",
+		"page-title": "Maintenance | Hashcash staking",
 		"title-line1": "Down for",
 		"title-line2": "maintenance.",
 		"subtitle": "We apologise for any inconvenience caused, it will be back shortly."
 	},
 	"mobile-unsupported": {
-		"page-title": "Mobile is coming soon | Synthetix Staking",
+		"page-title": "Mobile is coming soon | Hashcash Staking",
 		"title-line1": "Mobile is coming",
 		"title-line2": "soonthetix"
 	},
@@ -1298,7 +1298,7 @@
 		}
 	},
 	"delegate": {
-		"page-title": "Delegate | Synthetix Staking",
+		"page-title": "Delegate | Hashcash staking",
 		"form": {
 			"title": "Delegate to a new Address",
 			"tx-confirmation-title": "Delegating to",
