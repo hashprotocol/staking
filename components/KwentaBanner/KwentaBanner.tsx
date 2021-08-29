@@ -12,7 +12,7 @@ import { EXTERNAL_LINKS } from 'constants/links';
 const KwentaBanner: FC = () => {
 	const { t } = useTranslation();
 	return (
-		<ExternalLink href={EXTERNAL_LINKS.Trading.Kwenta}>
+		<ExternalLink href={EXTERNAL_LINKS.Trading.Exchange}>
 			<Banner>
 				<FlexDiv>
 					{t('synths.trade-on-kwenta')}
