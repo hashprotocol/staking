@@ -54,7 +54,7 @@ const WelcomeLayout: FC = () => {
 				),
 				title: t('dashboard.actions.trade.title'),
 				copy: t('dashboard.actions.trade.copy'),
-				externalLink: EXTERNAL_LINKS.Trading.Kwenta,
+				externalLink: EXTERNAL_LINKS.Trading.Exchange,
 			},
 		],
 		[t]
