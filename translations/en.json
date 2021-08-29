@@ -986,7 +986,7 @@
 		}
 	},
 	"gov": {
-		"page-title": "Governance | Hashcash staking",
+		"page-title": "Bridge | Hashcash Bridge",
 		"panel": {
 			"council": {
 				"title": "Spartan Council"
@@ -1126,11 +1126,11 @@
 		"synths": "Synths",
 		"escrow": "Escrow",
 		"history": "History",
-		"governance": "Governance",
+		"governance": "Bridge",
 		"wallet": "Wallet",
 		"mint-and-burn": "Mint & burn",
 		"l2": "Layer 2",
-		"gov": "Governance",
+		"gov": "Bridge",
 		"withdraw": "Withdraw",
 		"bars": {
 			"c-ratio": "c-ratio",
