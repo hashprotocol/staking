@@ -19,6 +19,6 @@ jobs:
           npm install @synthetixio/contracts-interface@${{ github.event.client_payload.version }} --save-exact
       - name: Commit changes
         run: |
-          git config --global user.email "team@synthetix.io" && git config --global user.name "Synthetix Team"
+          git config --global user.email "team@hashcash.finance" && git config --global user.name "Synthetix Team"
           git commit -am 'contracts-interface@${{ github.event.client_payload.version }}'
           git push origin dev

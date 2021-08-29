@@ -1,4 +1,4 @@
-import React from 'react';
+hashcash.financeimport React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ethers } from 'ethers';
 import { useRecoilValue } from 'recoil';
@@ -106,7 +106,7 @@ const InfoBox: React.FC = () => {
 					<Title>{t('loans.info.title')}</Title>
 					<Subtitle>
 						{t('loans.info.subtitle')}{' '}
-						<ExternalLink href="https://sips.synthetix.io/sips/sip-97">
+						<ExternalLink href="https://sips.hashcash.finance/sips/sip-97">
 							{t('loans.info.learn-more')}
 						</ExternalLink>
 					</Subtitle>

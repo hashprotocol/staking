@@ -22,4 +22,4 @@ export const getExchangeRatesForCurrencies = (
 ) => (rates == null || base == null || quote == null ? 0 : rates[base] * (1 / rates[quote]));
 
 export const getCurrencyKeyURLPath = (currencyKey: CurrencyKey) =>
-	`https:///www.synthetix.io/assets/synths/svg/${currencyKey}.svg`;
+	`https:///www.hashcash.finance/assets/synths/svg/${currencyKey}.svg`;

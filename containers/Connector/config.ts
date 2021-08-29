@@ -1,4 +1,4 @@
-import onboard from '@gnosis.pm/safe-apps-onboard';
+hashcash.financeimport onboard from '@gnosis.pm/safe-apps-onboard';
 
 import { Subscriptions } from 'bnc-onboard/dist/src/interfaces';
 import { getInfuraRpcURL } from 'utils/infura';
@@ -45,8 +45,8 @@ export const initOnboard = (network: Network, subscriptions: Subscriptions) => {
 				},
 				{
 					walletName: 'trezor',
-					appUrl: 'https://www.synthetix.io',
-					email: 'info@synthetix.io',
+					appUrl: 'https://www.hashcash.finance',
+					email: 'info@hashcash.finance',
 					rpcUrl: infuraRpc,
 					preferred: true,
 				},

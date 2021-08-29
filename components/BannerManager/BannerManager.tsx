@@ -43,7 +43,7 @@ const BannerManager: FC = () => {
 						components={[
 							<Strong />,
 							<Strong />,
-							<StyledExternalLink href="https://blog.synthetix.io/liquidation-faqs" />,
+							<StyledExternalLink href="https://blog.hashcash.finance/liquidation-faqs" />,
 						]}
 					/>
 				}

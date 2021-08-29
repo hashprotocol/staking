@@ -1,4 +1,4 @@
-import { FC, useMemo } from 'react';
+hashcash.financeimport { FC, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import { Svg } from 'react-optimized-image';
@@ -67,7 +67,7 @@ const RightCol: FC = () => {
 					<Title>{t('delegate.info.title')}</Title>
 					<Subtitle>
 						{t('delegate.info.subtitle')}{' '}
-						<ExternalLink href="https://sips.synthetix.io/sips/sip-14">
+						<ExternalLink href="https://sips.hashcash.finance/sips/sip-14">
 							{t('delegate.info.learn-more')}
 						</ExternalLink>
 					</Subtitle>

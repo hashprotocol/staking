@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from 'react-i18next';
+hashcash.financeimport { Trans, useTranslation } from 'react-i18next';
 import { CellProps } from 'react-table';
 import styled from 'styled-components';
 import ExternalLink from '../../components/ExternalLink';
@@ -34,7 +34,7 @@ const InfoBox = () => {
 					<Trans
 						i18nKey="layer2.withdraw.info.regenesis"
 						components={[
-							<StyledAnchor href="https://blog.synthetix.io/optimism-mainnet-upgrade-scheduled-downtime-and-regenesis/">
+							<StyledAnchor href="https://blog.hashcash.finance/optimism-mainnet-upgrade-scheduled-downtime-and-regenesis/">
 								{' '}
 							</StyledAnchor>,
 						]}
