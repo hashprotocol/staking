@@ -1,9 +1,9 @@
 {
-	"name": "Synthetix Staking",
+	"name": "Hashcash Staking",
 	"iconPath": "images/synthetix-logo.svg",
-	"description": "A dApp for SNX holders to earn rewards through staking",
+	"description": "A dApp for HSH holders to earn rewards through staking",
 	"providedBy": {
-		"name": "Synthetix",
+		"name": "Hashcash",
 		"url": "https://staking.synthetix.io"
 	}
 }
