@@ -16,7 +16,7 @@ export const EXTERNAL_LINKS = {
 		MintrL2: 'https://l2.mintr.hashcash.finance',
 	},
 	Social: {
-		Twitter: 'https://twitter.com/synthetix_io',
+		Twitter: 'https://twitter.com/',
 		Blog: 'https://blog.hashcash.finance/',
 		Discord: 'https://discordapp.com/invite/AEdUHzt',
 		GitHub: 'https://github.com/synthetixio/staking',
