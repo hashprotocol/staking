@@ -51,7 +51,7 @@ export const ROUTES = {
 	Withdraw: {
 		Home: '/withdraw',
 	},
-	Bridge: {
+	Gov: {
 		Home: 'https://bridge.hashcash.finance/',
 	},
 	Loans: {
